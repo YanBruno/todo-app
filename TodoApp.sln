@@ -3,21 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Api", "TodoApp.Api\TodoApp.Api.csproj", "{8E7C2790-536B-45FC-984C-A6682C4218EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Api", "TodoApp.Api\TodoApp.Api.csproj", "{8E7C2790-536B-45FC-984C-A6682C4218EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Core", "TodoApp.Core\TodoApp.Core.csproj", "{EE45F812-692A-4814-B4B3-8624083E56A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Core", "TodoApp.Core\TodoApp.Core.csproj", "{EE45F812-692A-4814-B4B3-8624083E56A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Infra", "TodoApp.Infra\TodoApp.Infra.csproj", "{592884A3-22AF-4C9E-8CF5-C7A46587295F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Infra", "TodoApp.Infra\TodoApp.Infra.csproj", "{592884A3-22AF-4C9E-8CF5-C7A46587295F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Shared", "TodoApp.Shared\TodoApp.Shared.csproj", "{A3F187FD-01D1-4EF5-8652-7AB21C295555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Shared", "TodoApp.Shared\TodoApp.Shared.csproj", "{A3F187FD-01D1-4EF5-8652-7AB21C295555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Test", "TodoApp.Test\TodoApp.Test.csproj", "{F49F972F-79F7-47E3-967D-4B0F1F1DBC2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8E7C2790-536B-45FC-984C-A6682C4218EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +35,15 @@ Global
 		{A3F187FD-01D1-4EF5-8652-7AB21C295555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3F187FD-01D1-4EF5-8652-7AB21C295555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3F187FD-01D1-4EF5-8652-7AB21C295555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49F972F-79F7-47E3-967D-4B0F1F1DBC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49F972F-79F7-47E3-967D-4B0F1F1DBC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49F972F-79F7-47E3-967D-4B0F1F1DBC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49F972F-79F7-47E3-967D-4B0F1F1DBC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18D849D3-6562-44A7-82B3-7A1571E6FBD6}
 	EndGlobalSection
 EndGlobal
