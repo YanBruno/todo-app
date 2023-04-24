@@ -4,7 +4,7 @@ namespace TodoApp.Test.ValueObjectTests;
 
 [TestClass]
 [TestCategory("ValueObject")]
-public class EmailTests
+public class EmailTest
 {
     [TestMethod]
     public void Deve_retornar_0_notifications_dado_email_valido() {

@@ -4,7 +4,7 @@ namespace TodoApp.Test.ValueObjectTests;
 
 [TestClass]
 [TestCategory("ValueObject")]
-public class NameTests
+public class NameTest
 {
     [TestMethod]
     public void Deve_retornar_nome_valido_dado_nenhuma_notification() => Assert.IsTrue(new Name("Yan", "Santos").IsValid);
